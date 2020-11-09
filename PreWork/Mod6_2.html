@@ -1,7 +1,7 @@
 <html>
 <head>
     <title>Jiggle Into JavaScript</title>
-    <!-- <link rel="stylesheet" type="text/javascript" href="PreWork\javascript.js">-->
+    <link rel="stylesheet" type="text/javascript" href="javascript.js">
     <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
 </head>
 <body>
@@ -11,49 +11,18 @@
     <div id="box" style="height:150px; width:150px; background-color:orange; margin:25px"></div>
 
     <input type = "button" onclick = "Grow()" value = "Grow">
+    <input type = "button" onclick = "Blue()" value = "Blue">
+    <input type = "button" onclick = "Fade()" value = "Fade">
+    <input type = "button" onclick = "Reset()" value = "Reset">
 
 
+    <!-- javascript starts here -->
 
-    
-    <button id="pbBblue"onclick="Blue()">Blue</button>
-    <button id="pbFade"onclick="Fade()">Fade</button>
-    <button id="pbReset"onclick="Reset()">Reset</button>
+    <script type="text/javascript">
 
-    
-<!-- <script starts here -->
-
-<script language="Javascript" type="text/Javascript"> 
-
-//Grow button function
-Function Grow(){
-
-    document.getElementById("box").style.height = "250px";
-   
-}
-   
-//Blue button function
-Function Blue(){
-
-    document.getElementById("box").style.backgroundcolor = "#ba3131";
   
-} 
-//Fade button function
-Function Fade(){
-
-    document.getElementById("box").style.backgroundcolor = "#ba3131";
-
-} 
-
-//Fade button function
-Function Reset(){
-
-    document.getElementById("box").style.height = "150px";
-    document.getElementById("box").style.backgroundcolor = "Orange";
-
-} 
- 
-</script>
-<!-- <script stops here -->
+     
+    </script>
 
 </body>
 </html>
