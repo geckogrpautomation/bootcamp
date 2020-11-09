@@ -1,7 +1,7 @@
 <html>
 <head>
     <title>Jiggle Into JavaScript</title>
-    <link rel="stylesheet" type="text/javascript" href="PreWork\javascript.js">
+    <!-- <link rel="stylesheet" type="text/javascript" href="PreWork\javascript.js">-->
     <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
 </head>
 <body>
@@ -10,68 +10,50 @@
 
     <div id="box" style="height:150px; width:150px; background-color:orange; margin:25px"></div>
 
-    <button id="pBGrow"onclick="Grow()">Grow</button>
+    <input type = "button" onclick = "Grow()" value = "Grow">
+
+
+
+    
     <button id="pbBblue"onclick="Blue()">Blue</button>
-    <button id="pbFade"onclick="Fade()">Blue</button>
-    <button id="pbReset"onclick="Reset()">Blue</button>
+    <button id="pbFade"onclick="Fade()">Fade</button>
+    <button id="pbReset"onclick="Reset()">Reset</button>
 
     
 <!-- <script starts here -->
 
 <script language="Javascript" type="text/Javascript"> 
 
-//Grow button click event
-document.getElementById("pBGrow").onclick = "Function()";{
-    
-    
+//Grow button function
+Function Grow(){
+
+    document.getElementById("box").style.height = "250px";
+   
 }
    
-//Blue button click event
-document.getElementById("pbBblue").onclick = "Function()";{
+//Blue button function
+Function Blue(){
 
-    Blue();
+    document.getElementById("box").style.backgroundcolor = "#ba3131";
+  
 } 
-//Fade button click event
-document.getElementById("pbFade").onclick = "Function()";{
+//Fade button function
+Function Fade(){
 
-    Fade();
-} 
-//Reset button click event
-document.getElementById("pbReset").onclick = "Function()";{
+    document.getElementById("box").style.backgroundcolor = "#ba3131";
 
-    Fade();
 } 
 
+//Fade button function
+Function Reset(){
 
-function Grow(){  
-    
-    document.getElementById("box").style.height = "250px";
- 
-    } 
-    
-function Blue(){  
+    document.getElementById("box").style.height = "150px";
+    document.getElementById("box").style.backgroundcolor = "Orange";
 
-    Mod6_2.getElementById("Mod6_2.box").style.backgroundcolor = "#ba3131";
-             
-             }
-    
-function Fade(){  
-        
-    Mod6_2.getElementById("Mod6_2.box").style.height = "50px";
-                 
-            }
-    
-function Reset(){  
-        
-    Mod6_2.getElementById("Mod6_2.box").style.height = "150px";
-    Mod6_2.getElementById("Mod6_2.box").style.backgroundcolor = "Orange";
-                     
-            }
-
+} 
  
 </script>
-
-<!-- <script starts here -->
+<!-- <script stops here -->
 
 </body>
 </html>
