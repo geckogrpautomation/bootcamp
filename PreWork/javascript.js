@@ -1,10 +1,15 @@
 
-// Grow Pushbutton OnClick fuction //
-document.getElementById('id').onclick = function() {
 
-    document.getElementById("box").style.height = "250px";
-};{
-   
+    Mod6_2.getElementById("Mod6_2.Button1").addEventListener("click", function(){
+
+        Mod6_2.getElementById("Mod6_2.box").style.height = "250px";
+     Mod6_2.getElementById()
+    }); 
+        
 
 
-// Grow Pushbutton OnClick function //
+
+
+
+
+        
