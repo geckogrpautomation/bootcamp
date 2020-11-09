@@ -1,28 +1,28 @@
 
 //Grow button function
-Function Grow(){
+function Grow(){
 
         document.getElementById("box").style.height = "250px";
        
     }
        
 //Blue button function
-Function Blue(){
+function Blue(){
     
-        document.getElementById("box").style.backgroundcolor = "#ba3131";
+        document.getElementById("box").style.backgroundColor = "Blue";
       
     } 
 //Fade button function
-Function Fade(){
+function Fade(){
     
-        document.getElementById("box").style.backgroundcolor = "#ba3131";
+        document.getElementById("box").style.fade = "#ba3131";
     
     } 
     
 //Fade button function
-Function Reset(){
+function Reset(){
     
         document.getElementById("box").style.height = "150px";
-        document.getElementById("box").style.backgroundcolor = "Orange";
+        document.getElementById("box").style.backgroundColor = "Orange";
     
     } 
