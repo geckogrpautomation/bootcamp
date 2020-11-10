@@ -1,0 +1,44 @@
+.header {
+    width: 100%;
+    padding: 0px;
+    background-color: #b3b3b8;
+} 
+    
+.header h1 {
+    font-family: "Bookman";
+    color: #ba3131;
+    padding: 10px;
+    display: inline-block; 
+        
+}
+.header h2 {
+    font-family: "Bookman";
+    color: #ba3131;
+    padding: 10px;
+    display: inline-block;     
+}
+
+.header h3 {
+    font-family: "Bookman";
+    color: #ba3131;
+    display: inline-block;     
+}
+
+
+
+
+
+
+/*
+  .header h2 {
+    font-family: "Bookman";
+    background-color: #b3b3b8;
+    color: #ba3131;
+    border: 1px solid #404041;
+    margin: 20px;
+    padding: 20px;
+    }
+*/
+
+
+
