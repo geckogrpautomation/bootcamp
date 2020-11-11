@@ -1,37 +1,39 @@
 
 .header {
-    left: 151px;
+    position: relative;
+    left: 350px;
     top: 0px;
-    right: 100%;
-    padding: 10px;
-    background-color: #b3b3b8;
+    height: 100px;
+    width: 1570px;
+    background-color: #ba3131;
     vertical-align: middle;
     text-align: center;
     outline-width: 1px;
     outline-color: black;
     } 
-    
-.header h1{
+ 
 
+.header h1{
+    position: absolute;
     font-family: "Bookman";
-    color: #ba3131;
+    color:black;
     display: inline; 
     vertical-align: middle;
     text-align: center;
-    font-size: 50px;  
-       
+    font-size: 50px; 
+           
 }
 .header h2 {
     font-family: "Bookman";
     color: #ba3131;
     padding: 10px;
-    display: inline-block;     
+       
 }
 
 .header h3 {
     font-family: "Bookman";
     color: #ba3131;
-    display: inline-block;     
+       
 }
 
 .navbar {
@@ -41,8 +43,8 @@
     top: 0px;
     display: inline-block;
     width: 350px;
-    height: 930px;
-    background-color: darkgray;
+    height: 975px;
+    background-color: lightgray;
     outline-width: 1px;
     outline-color: black;
      
@@ -76,8 +78,28 @@
     background-color: #ba3131;
     opacity: 0.5;
     
-  }
+}
 
+.section {
+    position: fixed;
+    left: 350px;
+    top: 100px;
+    height: 675px;
+    width: 1570px;
+    background-color: darkgray;
+    } 
+
+    
+.footer {
+    position: fixed;
+    left: 350px;
+    top: 775px;
+    height: 200px;
+    width: 1570px;
+    background-color: #ba3131;;
+    } 
+
+}
 /* Misc CSS*/
 
 .center {
