@@ -1,37 +1,40 @@
 
 .container {
 
-    position: absolute;
     left: 0px;
     width: 1920px;
         
 }
 
 .header {
-
+    
     top: 0px;
     left: 0px;
-    height: 100px;
+    height: 110px;
     width: 1920px;
-    background-color: #ba3131;
-    vertical-align: middle;
-    text-align: center;
+    background-color:whitesmoke;
     outline-width: 1px;
     outline-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    } 
+    display:flex;
+    border-bottom:1px solid #ba3131;
+} 
  
-.header h1{
+    .header img{
     
-    position: relative;
+    width:300px;
+    height:91px;
+    align-self: center;
+    
+    }
+  .header h1{
     font-family: "Bookman";
     color:black;
-    display: inline; 
     vertical-align: middle;
     text-align: center;
-    font-size: 50px;         
+    font-size: 50px;   
+    display: inline;
+    align-self: center; 
+    text-align: center;     
 }
 
 .header h2 {
@@ -52,15 +55,13 @@
     left: 0px;
     height: 675px;
     width: 1920px;
-    background-color: darkgray;
+    background-color: #404041;
 } 
 
 .dropdown{
 
-  
 
 }
-
 
 .dropdown:hover {
 
@@ -100,7 +101,7 @@
 /* Main Navigation */
 #nav {
     position:relative;
-    width:620px;
+    width:1920px;
     margin:0 auto;
     
 }
@@ -115,8 +116,9 @@ ul#navigation {
  
 ul#navigation li {
     display:inline;
-    font-size:12px;
+    font-size:16px;
     font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
     margin:0;
     padding:0;
     float:left;
